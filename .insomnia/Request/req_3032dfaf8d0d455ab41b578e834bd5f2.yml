@@ -1,0 +1,23 @@
+_id: req_3032dfaf8d0d455ab41b578e834bd5f2
+type: Request
+parentId: wrk_e1602d323478496e9a5f723d86e4127e
+modified: 1693795164114
+created: 1693795164114
+url: localhost:3000/audio/
+name: GET audio
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1693792037610
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

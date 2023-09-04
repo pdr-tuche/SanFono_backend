@@ -1,0 +1,38 @@
+_id: req_a198976a9e3942aebcb09c05b92942c3
+type: Request
+parentId: wrk_e1602d323478496e9a5f723d86e4127e
+modified: 1693795164103
+created: 1693795164103
+url: localhost:3000/upload
+name: Post audio
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_d88338b7bbb142b2bc2ba042f68fa85d
+      name: audio
+      value: ""
+      description: ""
+      type: file
+      multiline: true
+      fileName: C:\Users\tucha\codes\sanmara\audios\dificil\pandeiro.mp3
+    - id: pair_b8988d0404dd44d39be865eca1a59855
+      name: nivel
+      value: dificil
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1693788059960
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

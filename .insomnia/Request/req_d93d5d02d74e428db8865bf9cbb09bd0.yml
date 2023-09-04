@@ -1,0 +1,23 @@
+_id: req_d93d5d02d74e428db8865bf9cbb09bd0
+type: Request
+parentId: wrk_e1602d323478496e9a5f723d86e4127e
+modified: 1693795164108
+created: 1693795164108
+url: localhost:3000/audios/facil
+name: GET audios by nivel
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1693790699033
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
