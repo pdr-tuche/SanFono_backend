@@ -1,11 +1,12 @@
 const express = require("express");
 const multer = require("multer");
+require("dotenv").config();
 const path = require("path");
 const db = require("./db/db");
 const cors = require("cors"); // Importe o pacote cors
 
 const app = express();
-const port = 3000;
+const port = process.env.APP_PORT || 3000;
 
 app.use(express.json());
 app.use(cors());
