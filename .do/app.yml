@@ -1,3 +1,0 @@
-name: "Ubuntu22ToNode18"
-features:
-    - buildpack-stack=ubuntu-22
